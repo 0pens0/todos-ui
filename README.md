@@ -1,29 +1,14 @@
-# client
+#ToDo UI Tanzu Build Service demo
 
-## Project setup
-```
-yarn install
-```
+Build the ToDo UI demo with Tanzu build service, commit a change to this repo and a new build will be created automatically
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+# Create the build service image
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+kp image create <name> --tag harbor.tanzuworld.com/<project> --git <git repo> -n <namespace>
 
-### Run your tests
-```
-yarn run test
-```
+# Check the build status with:
 
-### Lints and fixes files
-```
-yarn run lint
-```
+kp build list -n builds <name>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
