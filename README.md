@@ -5,7 +5,7 @@ Build the ToDo UI demo with Tanzu build service, commit a change to this repo an
 
 ## Create the build service image
 ```
-kp image create <name> --tag harbor.tanzuworld.com/<project> --git <git repo> -n <namespace>
+kp image create <name> --tag harbor.tanzuworld.com/<project> --git <git repo> -n <namespace> --git-revision main
 ```
 ### Check the build status with:
 ```
