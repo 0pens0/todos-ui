@@ -1,0 +1,8 @@
+---
+applications:
+  - name: todo-ui
+    memory: 256M
+    routes: 
+    - route: todo.apps.tas.tanzuworld.com
+    docker:
+      image: dbbaskette/todos-ui

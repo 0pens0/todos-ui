@@ -1,0 +1,8 @@
+---
+applications:
+  - name: todo-ui
+    memory: 256M
+    routes: 
+    - route: todo.apps.vtas.lab.local
+    docker:
+      image: harbor.tanzuworld.com/vtas/todos-ui
