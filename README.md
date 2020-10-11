@@ -1,4 +1,4 @@
-#ToDo UI Tanzu Build Service demo
+## ToDo UI Tanzu Build Service demo
 
 Build the ToDo UI demo with Tanzu build service, commit a change to this repo and a new build will be created automatically
 
